@@ -1,1 +1,8 @@
-
+{
+  "version": 2,
+  "build": {
+  "env": {
+    "FAUNADB_STATIC_FUN_KEY": "@faunadb-static-fun-key",
+  }
+}
+}

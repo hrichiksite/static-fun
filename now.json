@@ -14,4 +14,4 @@
     "PUSHER_APP_KEY": "@pusher-static-fun-app-key",
     "PUSHER_APP_SECRET": "@pusher-static-fun-app-secret"
    }
-}
+   }

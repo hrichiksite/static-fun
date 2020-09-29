@@ -12,8 +12,8 @@ export default function TopBar({
       <div className="logo-and-info">
         <a href="https://static.fun">
           <h2>
-            <span className="static">static</span>
-            <span className="fun">.fun</span>
+            <span className="static">freestatic</span>
+            <span className="fun">.ga</span>
           </h2>
         </a>
         {info && (

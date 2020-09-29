@@ -20,11 +20,11 @@ export function Welcome() {
         let res = await fetch(`/api/get-page?page=${pageToSearch}`);
         if (res.status === 200) {
           setSearchState("ERROR");
-          setPageExists({ name: `${pageToSearch}.static.fun` });
+          setPageExists({ name: `${pageToSearch}.funstatic.ga` });
           return;
         }
         if (res.status === 404) {
-          window.location.href = `https://${pageToSearch}.static.fun`;
+          window.location.href = `https://${pageToSearch}.funstatic.ga`;
         } else {
           let { message, stack } = await res.json();
           throw new Error(message);
